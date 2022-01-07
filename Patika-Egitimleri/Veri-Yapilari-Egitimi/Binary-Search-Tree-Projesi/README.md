@@ -1,1 +1,1 @@
-![binarySearchTree.jpg]
+![binarySearchTree](binarySearchTree.jpg)
