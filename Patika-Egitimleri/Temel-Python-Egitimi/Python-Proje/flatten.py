@@ -1,0 +1,5 @@
+l=str(input("Düzleştirmek istediğiniz listeyi giriniz: "))
+l=l.replace("[","")
+l=l.replace("]","")
+stt=l.split(",")
+print(stt)
