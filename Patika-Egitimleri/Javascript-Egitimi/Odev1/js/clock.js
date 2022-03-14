@@ -1,8 +1,11 @@
+//The function that takes the name from the user.
 function getName(){
     var name=prompt("Bir isim giriniz","lütfen isminizi giriniz..")
     var spanName=document.getElementById("myName");
     spanName.innerHTML=name;
 }
+
+//Function that calculates and displays time information.
 function showTime(){
     var span=document.getElementById("clock");
     var date=new Date();
@@ -37,4 +40,6 @@ function showTime(){
     let text=`${hours}:${minute}:${second} ${dayName}`;
     span.textContent=text;
 }
+
+//It waits for 1 second and then starts it.
 setInterval(showTime, 1000);
