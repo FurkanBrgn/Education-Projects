@@ -1,3 +1,4 @@
+//Food data list for home page start
 const menu = [
     {
       id: 1,
@@ -82,9 +83,11 @@ const menu = [
     },
   ];
 
+//getting section and container from index.html for some process
 const section = document.querySelector(".section-center");
 const btnContainer = document.querySelector(".btn-container");
 
+//create categories list from menu by using reduce function
 const categories = menu.reduce(
   (values, item) => {
     if (!values.includes(item.category)) {
@@ -95,6 +98,7 @@ const categories = menu.reduce(
   ["All"]
 );
 
+//create filter menu by using categories list
 const categoryList = () => {
   const categoryBtns = categories
     .map((category) => {
@@ -124,6 +128,7 @@ const categoryList = () => {
   });
 };
 
+//adding menulist to index.html
 const menuList = (menuItems) => {
   let displayMenu = menuItems.map((item) => {
     return `<div class="menu-items col-lg-6 col-sm-12">
