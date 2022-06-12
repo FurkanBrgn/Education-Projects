@@ -1,5 +1,7 @@
 # smootbutton
 
+You can use the library from this link on npm: https://www.npmjs.com/package/smootbutton
+
 > A smoot and nice button library
 
 [![NPM](https://img.shields.io/npm/v/smootbutton.svg)](https://www.npmjs.com/package/smootbutton) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
