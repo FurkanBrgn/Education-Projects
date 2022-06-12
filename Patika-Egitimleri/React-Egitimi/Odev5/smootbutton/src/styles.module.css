@@ -1,0 +1,31 @@
+/* add css module styles here (optional) */
+
+.default {
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.primary {
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: aqua;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.bordered {
+  padding: 1em;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: aquamarine;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
