@@ -8,11 +8,10 @@ function MealCard({meal,onClick}) {
     <TouchableWithoutFeedback onPress={onClick} touchSoundDisabled>
       <View style={styles.container}>
         <Image style={styles.image} source={{uri: meal.strMealThumb}}/>
-        <View style={styles.titleBox}>
-          <Text style={styles.title}>
-            {meal.strMeal}
-          </Text>
-        </View>
+        <View style={styles.titleBox}></View>
+        <Text style={styles.title}>
+          {meal.strMeal}
+        </Text>
       </View>
     </TouchableWithoutFeedback>
   );
