@@ -19,6 +19,9 @@ const styles=StyleSheet.create({
     width: "100%",
     height: 50,
     backgroundColor: "#000",
+    position:'absolute',
+    bottom:0,
+    opacity:0.7,
     flexDirection: "row",
     justifyContent: "flex-end",
     alignItems: "center",
@@ -26,10 +29,12 @@ const styles=StyleSheet.create({
     borderBottomRightRadius: 15,
   },
   title:{
+    position:'absolute',
     marginRight: 10,
     fontSize: 18,
     fontWeight: "bold",
-    color: "#fff"
+    color: "#fff",
+    bottom: 10
   },
 });
 
