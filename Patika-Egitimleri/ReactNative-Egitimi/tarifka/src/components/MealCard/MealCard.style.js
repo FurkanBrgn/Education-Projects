@@ -11,8 +11,7 @@ const styles=StyleSheet.create({
   image:{
     width: "100%",
     height: 200,
-    borderTopLeftRadius: 15,
-    borderTopRightRadius: 15,
+    borderRadius: 15,
     resizeMode: "cover"
   },
   titleBox:{
@@ -34,7 +33,8 @@ const styles=StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
     color: "#fff",
-    bottom: 10
+    bottom: 10,
+    right:0
   },
 });
 
